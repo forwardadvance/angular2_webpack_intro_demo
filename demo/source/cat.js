@@ -1,5 +1,7 @@
-module.exports = {
+var cat = {
   miow: function() {
-    return 'Woof';
+    return 'Miow!!!';
   }
 };
+
+exports.cat = cat

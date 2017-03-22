@@ -47,8 +47,9 @@
   \***********************/
 /***/ function(module, exports, __webpack_require__) {
 
-	var cat = __webpack_require__(/*! ./cat */ 1)
+	var {cat} = __webpack_require__(/*! ./cat */ 1);
 	
+	var greeting = 'hello';
 	console.log(cat.miow());
 
 
@@ -59,11 +60,13 @@
   \***********************/
 /***/ function(module, exports) {
 
-	module.exports = {
+	var cat = {
 	  miow: function() {
-	    return 'Woof';
+	    return 'Miow!!!';
 	  }
 	};
+	
+	exports.cat = cat
 
 
 /***/ }

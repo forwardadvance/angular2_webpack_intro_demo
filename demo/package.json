@@ -2,13 +2,13 @@
   "name": "webpack_demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "webpack source/app.js build/app.js -dw"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "leftpad": "0.0.0",
     "webpack": "^1.13.1"
   }
 }

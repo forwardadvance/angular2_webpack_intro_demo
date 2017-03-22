@@ -1,7 +1,7 @@
 // maths is not a global, you'll need to require it.
 // require maths here
 
-describe('Maths', function() {
+describe('Maths', () => {var cat
   describe('maths.sum', function() {
     it('should be the case that one and one is 2', function() {
       expect(maths.sum(2,2)).toBe(4);
@@ -14,7 +14,6 @@ describe('Maths', function() {
       expect(maths.sum(infinity, infinity)).toBe(infinity);
     });
   });
-
 
   describe('maths.power', function() {
     it('should be the case that 2 to the power 3 is 8', function() {
